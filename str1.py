@@ -11,7 +11,7 @@ def max_list(lt):
 		if lt.count(i) > temp:
 			max_str = i
 			temp = lt.count(i)
-		return max_str
+	return max_str
 
 
 
