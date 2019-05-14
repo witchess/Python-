@@ -11,10 +11,10 @@ def max_list(lt):
 		if lt.count(i) > temp:
 			max_str = i
 			temp = lt.count(i)
-		return max_str
+	return max_str
 
 
 
 if __name__ == '__main__':
 	fn1 = max_list(["mary","mary","mary",1,1,2])
-	
+	print(fn1)#mary
