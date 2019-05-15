@@ -6,4 +6,16 @@
 #@Contact: 1822980791@qq.com
 
 
-print("\n".join("\t".join(["%s * %s = %s" % (x, y ,x*y) for y in range(1,x+1)]) for x in range(1,10)))
+def fun1():
+    print("\n".join("\t".join(["%s * %s = %s" % (x, y ,x*y) for y in range(1,x+1)]) for x in range(1,10)))
+
+
+def fun2():
+	for i in range(1,10):
+		for j in range(1,i+1):
+			print('{} * {} = {}\t'.format(j,i,i*j), end='')
+		print()
+
+fun1()
+fun2()
+
