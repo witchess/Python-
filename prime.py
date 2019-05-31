@@ -7,6 +7,9 @@
 
 
 def is_prime(x):
+	"""
+	判断是否是素数
+	"""
 	if x < 2 :
 		return False
 	for i in range(2,x):
